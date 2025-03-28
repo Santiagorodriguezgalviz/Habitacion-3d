@@ -1,22 +1,24 @@
-# My Room in 3D
+# Mi Habitación en 3D
 
-## Links
+![Vista previa de Mi Habitación en 3D](./static/social/share-1200x630.png)
+
+## Enlaces
 
 - [GitHub](https://github.com/brunosimon/my-room-in-3d)
-- [Live](https://my-room-in-3d.vercel.app)
+- [Demo en vivo](https://my-room-in-3d.vercel.app)
 
-## Setup
+## Configuración
 
-Download [Node.js](https://nodejs.org/en/download/).
-Run this followed commands:
+1. Descarga [Node.js](https://nodejs.org/es/download/).
+2. Ejecuta los siguientes comandos:
 
-``` bash
-# Install dependencies (only the first time)
+```bash
+# Instalar dependencias (solo la primera vez)
 npm install
 
-# Run the local server at localhost:8080
+# Iniciar servidor local en localhost:8080
 npm run dev
 
-# Build for production in the dist/ directory
+# Compilar para producción en el directorio dist/
 npm run build
 ```
