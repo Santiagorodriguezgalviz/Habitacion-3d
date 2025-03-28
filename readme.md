@@ -4,7 +4,7 @@
 
 ## Enlaces
 
-- [GitHub](https://github.com/brunosimon/my-room-in-3d)
+- [GitHub](https://github.com/Santiagorodriguezgalviz/Habitacion-3d.git)
 - [Demo en vivo](https://my-room-in-3d.vercel.app)
 
 ## Configuración
