@@ -3,14 +3,6 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const MiniCSSExtractPlugin = require('mini-css-extract-plugin')
 const path = require('path')
 
-// Add this check for Node.js version to handle OpenSSL issues
-if (process.version.startsWith('v16') || process.version.startsWith('v17') || 
-    process.version.startsWith('v18') || process.version.startsWith('v19') || 
-    process.version.startsWith('v20') || process.version.startsWith('v21') || 
-    process.version.startsWith('v22')) {
-    process.env.NODE_OPTIONS = '--openssl-legacy-provider';
-}
-
 module.exports = {
     entry: path.resolve(__dirname, '../src/script.js'),
     output:
