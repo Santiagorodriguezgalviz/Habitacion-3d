@@ -5,11 +5,18 @@
       "src": "package.json",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "dist"
+        "distDir": "dist",
+        "installCommand": "npm install",
+        "buildCommand": "npm run build"
       }
     }
   ],
   "env": {
     "NODE_OPTIONS": "--openssl-legacy-provider"
-  }
+  },
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/static/(.*)", "dest": "/static/$1" },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
 }
