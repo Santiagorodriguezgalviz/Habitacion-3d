@@ -6,7 +6,7 @@
       "use": "@vercel/static-build",
       "config": {
         "distDir": "dist",
-        "installCommand": "npm install --legacy-peer-deps",
+        "installCommand": "npm install --legacy-peer-deps copy-webpack-plugin@9.0.1 clean-webpack-plugin@3.0.0 html-webpack-plugin@5.3.2 mini-css-extract-plugin@2.1.0 webpack-merge@5.8.0",
         "buildCommand": "set NODE_OPTIONS=--openssl-legacy-provider && npm run build"
       }
     }
